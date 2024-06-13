@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.magma_container {
+	width: calc(100% - 100px);
+	height: calc(100dvh - 200px);
+	background: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	padding: 40px;
+	flex-direction: column;
+	border-radius: 20px;
+	font-family: 'Inter', sans-serif;
+
+	.logo {
+		margin-bottom: 32px;
+	}
+
+	.connect {
+		margin-bottom: 32px;
+	}
+
+	.shortcode {
+		width: 418px;
+		margin-top: 60px;
+	}
+
+	.connect,
+	.widgets {
+		display: flex;
+		align-items: flex-end;
+
+		label {
+			display: flex;
+			flex-direction: column;
+
+			span {
+				margin-bottom: 4px;
+				font-weight: 700;
+				font-size: 12px;
+			}
+
+			input[type='text'],
+			select {
+				height: 40px;
+				border-radius: 4px;
+				border: 1px solid rgb(226, 232, 240);
+				padding: 0 12px;
+				width: 300px;
+			}
+		}
+
+		p.submit {
+			margin: 0;
+			padding: 0;
+		}
+
+		button[type='submit'] {
+			height: 40px;
+			margin-left: 16px;
+			border-radius: 4px;
+			background: rgb(68, 76, 231);
+			color: white;
+			border: none;
+			cursor: pointer;
+			border-radius: 9999px;
+			font-weight: 700;
+			margin-bottom: 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 0 12px;
+			width: 100px;
+		}
+	}
+
+	.error-connect {
+		font-weight: 700;
+		color: red;
+	}
+
+	.shortcode > div {
+		margin-bottom: 16px;
+	}
+}
