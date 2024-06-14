@@ -9,8 +9,8 @@ Author URI: https://magma.app
 Requires at least: 4.3
 Tested up to: 6.5.4
 Stable tag: 4.3
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License: GPLv3
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
 */
 
 /* Add Magma CSS on the administration from ./style.css */
