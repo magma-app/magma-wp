@@ -1,4 +1,4 @@
-=== Plugin Name ===
+=== Magma.app ===
 
 Contributors: yourname
 
@@ -6,13 +6,13 @@ Tags: business, directory, ambassador, magma
 
 Requires at least: 4.3
 
-Tested up to: 4.3
+Tested up to: 6.6
 
-Stable tag: 4.3
+Stable tag: 6.6
 
-License: GPLv2 or later
+License: GPLv3
 
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 Add your Magma.app widget on your WordPress website easily
 
@@ -38,7 +38,7 @@ You need to be a customer of Magma.app to use it.
 You can multiple embed form and profile block but currently, only one corner and banner widget.
 
 == Screenshots ==
-01.png
+/assets/screenshot-1.png
 == Changelog ==
 = v1.0.0 =
 

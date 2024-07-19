@@ -7,8 +7,8 @@ Author: Magma
 Version: 1.0.0
 Author URI: https://magma.app
 Requires at least: 4.3
-Tested up to: 6.5.4
-Stable tag: 4.3
+Tested up to: 6.6
+Stable tag: 6.6
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 */
@@ -21,14 +21,13 @@ function magma_admin_style() {
 
 add_action('admin_enqueue_scripts', 'magma_admin_style');
 
-/* Add Magma script tag on the header */
+
+// add wp_enqueue_script instead off echo script tag
 function magma_script_tag() {
-    echo '
-        <script src="https://cdn.jsdelivr.net/gh/magma-app/magma-widget@latest/src/widget/initializer.js" async></script>
-    ';
+    wp_enqueue_script('magma-script', 'https://cdn.jsdelivr.net/gh/magma-app/magma-widget@latest/src/widget/initializer.js', array(), null, true);
 }
 
-add_action('wp_head', 'magma_script_tag');
+add_action('wp_enqueue_scripts', 'magma_script_tag');
 
 /* Create an option page to handle ID check  */
 
