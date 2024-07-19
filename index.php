@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Magma.app
-Plugin URI: https://magma.app
+Plugin URI: https://www.magma.app/blog
 Description: Integrate Magma to your WordPress website
 Author: Magma
 Version: 1.0.0
