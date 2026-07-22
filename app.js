@@ -69,6 +69,12 @@ window.addEventListener('load', () => {
 						hide.value = integration6.uuid;
 					}
 					break;
+				case 'magma_widget_gallery':
+					const integration7 = data.find((item) => item.type === 'gallery');
+					if (integration7) {
+						hide.value = integration7.uuid;
+					}
+					break;
 			}
 		});
 

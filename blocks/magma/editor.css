@@ -1,0 +1,18 @@
+.magma-block-editor {
+	padding: 16px;
+	border: 1px dashed #94a3b8;
+	background: #f8fafc;
+	border-radius: 4px;
+}
+
+.magma-block-editor__title {
+	margin: 0 0 8px;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.magma-block-editor__hint {
+	margin: 0;
+	font-size: 12px;
+	color: #64748b;
+}

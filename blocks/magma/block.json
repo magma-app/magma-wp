@@ -1,0 +1,20 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "magma/embed",
+  "title": "Magma",
+  "category": "widgets",
+  "icon": "groups",
+  "description": "Embed a Magma integration on your page.",
+  "keywords": ["magma", "gallery", "ambassador", "embed"],
+  "textdomain": "magma",
+  "attributes": {
+    "type": {
+      "type": "string",
+      "default": "profile-block"
+    }
+  },
+  "supports": {
+    "html": false
+  }
+}

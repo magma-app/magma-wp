@@ -14,17 +14,15 @@ class Elementor_Magma_Profile_Block extends \Elementor\Widget_Base {
 	}
 
 	public function get_categories() {
-		return [ 'basic' ];
+		return array( 'basic' );
 	}
 
 	public function get_keywords() {
-		return [ 'magma', 'profile', 'block' ];
+		return array( 'magma', 'profile', 'block' );
 	}
 
 	protected function render() {
-		?>
-		<div id="magma-app_block" style="width: 100%; height: 350px;"></div>
-		<?php
+		echo magma_render_integration( 'profile-block' );
 	}
 
 	protected function content_template() {
